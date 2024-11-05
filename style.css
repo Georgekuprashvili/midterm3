@@ -6,7 +6,8 @@ body {
   height: 100vh;
 }
 section {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container1 {
   max-width: 1275px;
@@ -16,10 +17,11 @@ section {
   flex-direction: row;
 }
 .black_box {
-  max-width: 450px;
+  width: 450px;
   height: 799px;
   background: var(--Almost-Black, #151515);
 }
+
 .heading1 {
   color: var(--White, #fff);
   font-feature-settings: "liga" off, "clig" off;
@@ -29,6 +31,12 @@ section {
   font-weight: 900;
   line-height: 88px;
   text-transform: uppercase;
+  position: absolute;
+  top: 189px;
+  left: 165px;
+}
+.span1 {
+  color: black;
 }
 .image1 {
   max-width: 540px;
@@ -64,6 +72,13 @@ section {
   line-height: normal;
   letter-spacing: 3.636px;
   padding: 20px;
+}
+.button:hover {
+  background: var(--Gold, #d5966c);
+}
+.link {
+  text-decoration: none;
+  color: white;
 }
 .arrow {
   width: 56px;
