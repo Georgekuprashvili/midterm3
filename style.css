@@ -182,6 +182,11 @@ footer {
   display: flex;
   gap: 15px;
 }
+.facebook_icon {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+}
 .facebook_icon:hover {
   background-color: #d5966c;
 }
