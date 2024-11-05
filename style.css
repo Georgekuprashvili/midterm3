@@ -83,7 +83,15 @@ section {
 .arrow {
   width: 56px;
   height: 72px;
+  background-color: #d5966c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.arrow:hover {
+  background-color: black;
+}
+
 .box2 {
   flex-direction: column;
   display: flex;
@@ -170,13 +178,12 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
-.footer_box1 {
+.footer_boxs {
   display: flex;
-  width: 730px;
-  height: 84px;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 140px;
+  gap: 15px;
+}
+.facebook_icon:hover {
+  background-color: #d5966c;
 }
 .paragraph4 {
   color: var(--White, #fff);

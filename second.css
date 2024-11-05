@@ -22,6 +22,17 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.arrow {
+  width: 56px;
+  height: 72px;
+  background-color: #d5966c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow:hover {
+  background-color: black;
+}
 .button {
   width: 208px;
   height: 72px;
@@ -99,9 +110,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.footer_box2 {
+.footer_boxs {
   display: flex;
-  gap: 140px;
+  gap: 15px;
 }
 .paragraph5 {
   width: 430px;
@@ -112,7 +123,22 @@ footer {
   font-weight: 400;
   line-height: 28px;
 }
+.icon {
+  width: 20px;
+  height: 20px;
+}
 .footer_box1 {
   display: flex;
   gap: 200px;
+}
+.footer_box2 {
+  display: flex;
+  gap: 50px;
+}
+.facebook_icon {
+  width: 20px;
+  height: 20px;
+}
+.facebook_icon:hover {
+  background-color: white;
 }
