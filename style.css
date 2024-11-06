@@ -213,3 +213,60 @@ footer {
   font-weight: 400;
   line-height: 28px;
 }
+.gallery1_1 {
+  display: none;
+}
+.gallery2_2 {
+  display: none;
+}
+.gallery3_3 {
+  display: none;
+}
+@media (max-width: 1130px) {
+  .image2 {
+    width: 398px;
+    height: 400px;
+  }
+  .gallery1 {
+    display: none;
+  }
+  .gallery1_1 {
+    display: block;
+  }
+  .gallery2 {
+    display: none;
+  }
+  .gallery2_2 {
+    display: block;
+  }
+  .gallery3 {
+    display: none;
+  }
+  .gallery3_3 {
+    display: block;
+  }
+
+  .black_box2 {
+    width: 280px;
+    height: 396px;
+  }
+  .heading3 {
+    width: 223px;
+    font-size: 50px;
+    line-height: 45px;
+  }
+  .paragraph3 {
+    width: 223px;
+    height: 112px;
+    font-family: Outfit;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .container2 {
+    gap: 62px;
+  }
+  .container3 {
+    width: 689px;
+    height: 720px;
+  }
+}
