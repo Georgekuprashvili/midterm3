@@ -190,6 +190,10 @@ footer {
     justify-content: center;
     align-items: start;
     gap: 38px !important;
+    margin-left: 10px;
+  }
+  .text_box {
+    margin-left: 10px;
   }
   .footer_box2 {
     flex-direction: column;
