@@ -9,11 +9,16 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+header {
+  margin-left: auto;
+  margin-right: auto;
+}
 .container1 {
-  max-width: 1275px;
   height: 800px;
   display: flex;
+  justify-content: center;
   flex-direction: row;
+  position: relative;
 }
 
 .black_box {
@@ -32,8 +37,8 @@ section {
   line-height: 88px;
   text-transform: uppercase;
   position: absolute;
-  top: 189px;
-  left: 165px;
+  margin-top: 190px;
+  margin-left: -211px;
 }
 .span1 {
   color: black;
@@ -51,14 +56,14 @@ section {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  left: 916px;
-  top: 190px;
+  margin-left: 1156px;
+  margin-top: 190px;
 }
 .location_box {
   display: flex;
   position: absolute;
-  left: 916px;
-  top: 414px;
+  margin-top: 500px;
+  margin-left: 1050px;
 }
 .button {
   max-width: 204px;
@@ -242,10 +247,33 @@ footer {
 .portrait2 {
   display: none;
 }
-@media (max-width: 1290px) {
+
+@media (max-width: 1385px) {
   .black_box {
     display: none;
   }
+  .heading1 {
+    display: none;
+  }
+  .gallery_heading {
+    display: block;
+    left: 490px;
+  }
+  .paragraph1 {
+    margin-left: 495px;
+    margin-top: 323px;
+    line-height: 28px;
+    width: 339px;
+    font-size: 18px;
+  }
+  .location_box {
+    margin-left: 495px;
+  }
+  .container1 {
+    justify-content: start;
+  }
+}
+/* @media (max-width: 1290px) {
   .paragraph1 {
     left: 389px;
     top: 309px;
@@ -254,16 +282,14 @@ footer {
     top: 483px;
     left: 389px;
   }
-  .gallery_heading {
-    display: block;
-  }
+
   .portrait1 {
     display: none;
   }
   .portrait2 {
     display: block;
-  }
-}
+  } */
+/* } */
 @media (max-width: 1130px) {
   .image2 {
     width: 398px;
@@ -357,7 +383,24 @@ footer {
   top: 272px;
   left: 16px;
 }
-@media (max-width: 755px) {
+@media (max-width: 852px) {
+  .portrait1 {
+    display: none;
+  }
+  .portrait2 {
+    display: block;
+  }
+  .gallery_heading {
+    margin-left: -103px;
+  }
+  .paragraph1 {
+    margin-left: 386px;
+  }
+  .location_box {
+    margin-left: 386px;
+  }
+}
+@media (max-width: 745px) {
   .footer1 {
     flex-direction: column;
     height: 300px;
@@ -439,21 +482,18 @@ footer {
     height: 630px;
   }
   .gallery_heading {
-    display: none;
+    line-height: 55px;
+    font-size: 60px;
+    margin-top: 110px;
+    margin-left: -481px;
   }
-  .gallery_heading2 {
-    display: block;
-  }
+
   .paragraph1 {
-    width: 343px;
-    height: 112px;
-    font-size: 18px;
-    line-height: 28px;
-    top: 414px;
-    left: 16px;
+    margin-left: 12px;
+    margin-top: 384px;
   }
   .location_box {
-    top: 558px;
-    left: 16px;
+    margin-left: 10px;
+    margin-top: 567px;
   }
 }

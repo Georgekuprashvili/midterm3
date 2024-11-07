@@ -8,10 +8,15 @@ body {
 
 .image_map {
   width: 100%;
+  height: 100%;
 }
 .image-box {
   position: relative;
 }
+.div {
+  height: 604.27px;
+}
+
 .back_home {
   display: flex;
   position: absolute;
@@ -171,6 +176,9 @@ footer {
   }
   .image_map2 {
     display: block;
+  }
+  .div{
+    height: auto;
   }
 }
 @media (max-width: 760px) {
