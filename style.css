@@ -241,8 +241,6 @@ footer {
   line-height: 65px;
   text-transform: uppercase;
   position: absolute;
-  top: 145px;
-  left: 389px;
 }
 .portrait2 {
   display: none;
@@ -257,39 +255,22 @@ footer {
   }
   .gallery_heading {
     display: block;
-    left: 490px;
+
+    margin-top: 132px;
+    margin-left: 716px;
   }
   .paragraph1 {
-    margin-left: 495px;
+    margin-left: 717px;
     margin-top: 323px;
     line-height: 28px;
     width: 339px;
     font-size: 18px;
   }
   .location_box {
-    margin-left: 495px;
-  }
-  .container1 {
-    justify-content: start;
+    margin-left: 614px;
   }
 }
-/* @media (max-width: 1290px) {
-  .paragraph1 {
-    left: 389px;
-    top: 309px;
-  }
-  .location_box {
-    top: 483px;
-    left: 389px;
-  }
 
-  .portrait1 {
-    display: none;
-  }
-  .portrait2 {
-    display: block;
-  } */
-/* } */
 @media (max-width: 1130px) {
   .image2 {
     width: 398px;
@@ -383,23 +364,27 @@ footer {
   top: 272px;
   left: 16px;
 }
-@media (max-width: 852px) {
+@media (max-width: 1055px) {
   .portrait1 {
     display: none;
   }
-  .portrait2 {
+  .portrait3 {
     display: block;
   }
-  .gallery_heading {
-    margin-left: -103px;
+  .location_box {
+    margin-left: -111px;
+    margin-top: 696px;
   }
   .paragraph1 {
-    margin-left: 386px;
+    margin-left: -5px;
+    margin-top: 500px;
   }
-  .location_box {
-    margin-left: 386px;
+  .gallery_heading {
+    margin-left: -13px;
+    margin-top: 300px;
   }
 }
+
 @media (max-width: 745px) {
   .footer1 {
     flex-direction: column;
@@ -448,7 +433,7 @@ footer {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 199px;
   }
   .heading2 {
     width: 343px;
@@ -476,24 +461,5 @@ footer {
   }
   .portrait3 {
     display: block;
-  }
-  .container1 {
-    width: 375px;
-    height: 630px;
-  }
-  .gallery_heading {
-    line-height: 55px;
-    font-size: 60px;
-    margin-top: 110px;
-    margin-left: -481px;
-  }
-
-  .paragraph1 {
-    margin-left: 12px;
-    margin-top: 384px;
-  }
-  .location_box {
-    margin-left: 10px;
-    margin-top: 567px;
   }
 }
